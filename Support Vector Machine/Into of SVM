@@ -22,4 +22,17 @@ Algo:
 
 Chart:
 ![GitHub Logo](https://github.com/Mohanish31/data-science-portfolio/blob/master/Support%20Vector%20Machine/SVMimages.PNG)
-Note:
+
+Note: Star and dot are two different classes and between them there are three line two dashed and one solid line , solid line is hyperplane
+now support vector datapoints are on the dashed lineand distance between dashed line and solid line is margin .. 
+
+Lets insert a dataset (linear data) to see what it will do and what tuning we have to perform to get the result
+
+How it work:
+1.Only and only thing we are doing here is to find the best line which can fit in between classes to classify class A and class B
+2. How to get the best fit line ? we need a threshold value to get the best fit line threshold value define where the line(hyperplane) will draw
+3. lets calulate the shortest distance between the neariest Class A data point and Class B data point then we take a mid point to draw a threshold
+4. and the shortes distance between observation and threshold is called margin and to get the correct threshold value we use bias-variance tradeoff
+5. Now hat happen when we have miss classified datapoint instead of ignoring or removing the missclassied datapoints we use them.
+6. the distance between the observation and missclassified datapoint is called soft margin . now we need to find the correct threshold to allow missclassification as well
+7. By cross-validation 
