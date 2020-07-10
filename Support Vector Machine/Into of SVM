@@ -1,0 +1,25 @@
+SVM - Support vector machine.
+It belong to supervised machine learning algo
+It is an algo to classify Object 
+Application :
+            1. Face detection 
+            2. Classification of images
+            3.Handwriting recongition
+            4. Bio informatics
+Topologies:
+          1. Input/output
+          2. A line(hyperplane) which seprates class
+          3. A threshold value 
+          4. Margin
+          5. Soft margin
+          6. Support vector 
+          7. Kernal
+Methods: Bias -variance tradeoff Concept  and cross validation
+
+Algo:
+1. SVM will generates hyperplane iteratively that segregate the class in best way.
+2. It will chosse the hyperplane that separates the class correctly
+
+Chart:
+![GitHub Logo](SVMimages.png)
+Note:
