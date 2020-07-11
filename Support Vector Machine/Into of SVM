@@ -35,4 +35,7 @@ How it works:
 4. and the shortest distance between observation and threshold is called margin and to get the correct threshold value we use bias-variance tradeoff
 5. Now hat happens when we have miss classified data point instead of ignoring or removing the misclassified data points we use them.
 6. the distance between the observation and misclassified datapoint is called soft margin. now we need to find the correct threshold to allow misclassification as well
-7. By cross-validation 
+7. By cross-validation, we can find the best soft margin and the threshold value.
+
+Link - SVM Basic code with explanation and use case --> 
+Link - let's implement a project with explanation --> 
