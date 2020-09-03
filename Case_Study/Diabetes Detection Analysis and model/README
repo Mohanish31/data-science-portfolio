@@ -1,0 +1,19 @@
+# Summary about the task and dataset
+1. Dataset : Dataset is collected from Kaggle(https://www.kaggle.com/johndasilva/diabetes), Dataset of diabetes, taken from the hospital Frankfurt, Germany its have 9 columns , One target and 8 independent variable, Outcome column have 2 class 0 means "NOT diabetic" and 1 means "Diabetic"
+2. Tasks :
+ - Load datasets
+ - Analysis on dataset
+ - Check and handle  missing
+ - Check and handle  Outlier
+ - Check and handle  Skrewness
+ - Create new feature
+ - Check and handle imbalance
+ - Modeling 
+ - Logistic (Supervised leaning)
+ - GaussianNB
+ - KNN 
+ - Decision Tree
+ - Random Forest
+ - Gradient Boosting
+ - AdaBoostClassifier
+ 
